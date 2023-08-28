@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/imagen1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cuby</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Cuby</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu.svg" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#informacion">Servicio</a></li>
+                    <li><a href="#lista-1">Productos</a></li>
+                    <li><a href="#footer">contacto</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=GyY0OxDk5lI">Tutorial</a></li>
+                </ul>
+
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>producto</th>
+                                        <th>nombre</th>
+                                        <th>precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container" id="inicio">
+
+            <div class="header-txt">
+                <span>numero 1 en ventas</span>
+                <h1>Cubos Rubik</h1>
+                <p>
+                    El cubo de rubik es un mecanismo de ejes que permite que cada una de sus caras gire
+                    independientemente, mezclando los colores, para solucionar el rompecabezas, cada una de sus caras
+                    debe estar compuesto en un solo color.
+                </p>
+                <a class="btn-1" href="https://es.wikipedia.org/wiki/Cubo_de_Rubik">informacion</a>
+            </div>
+            <div class="header-img">
+                <img src="img/rigth.png" alt="">
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="information container" id="informacion">
+
+        <div class="information-content">
+
+            <div class="information-1">
+                <img src="img/i1.svg" alt="">
+                <h3>Tienda Virtual</h3>
+                <p class="uwu">
+                    compra desde la 
+                    pagina web. 
+            </div>
+
+            <div class="information-1">
+                <img src="img/i2.svg" alt="">
+                <h3>Empaquetado</h3>
+                <p class="uwu">
+                    Envio rapido y eficiente
+                </p>
+            </div>
+
+            <div class="information-1">
+                <img src="img/i3.svg" alt="">
+                <h3>Envio Seguro</h3>
+                <p class="uwu">
+                    1 a 3 dias habiles dependiendo la zona.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="oferts container" id="ofertas">
+
+        <div class="ofert-1">
+            <img src="img/imagen3.png" alt="">
+            <h3>2x2 gan251</h3>
+            <p>premiun</p>
+
+        </div>
+        <div class="ofert-1">
+            <img src="img/imagen4.png" alt="">
+            <h3>4x4 Gan460 </h3>
+            <p>premiun</p>
+
+        </div>
+        <div class="ofert-1">
+            <img src="img/imagen5.png"  alt="">
+            <h3>3x3 Gan 356 </h3>
+            <p>premiun</p>
+
+        </div>
+        <div class="ofert-1">
+            <img src="img/imagen2.png"  alt="">
+            <h3>Gan Skewb</h3>
+            <p>premiun</p>
+
+        </div>
+
+    </section>
+
+    <main class="products container" id="lista-1">
+        <h2>productos destacados</h2>
+
+        <div class="product-content" >
+
+            <div class="product">
+                <img src="img/imagen6.png" alt="">
+                <div class="product-txt">
+                    <h3>Pyraminx </h3>
+                    <p class="precio">$1,492</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/imagen7.png" alt="">
+                <div class="product-txt">
+                    <h3>megaminx</h3>
+                    <p class="precio">$65,26</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/imagen8.png" alt="" id="uwu1">
+                <div class="product-txt">
+                    <h3>megaminx</h3>
+                    <p class="precio">$8,57</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/imagen9.png" alt="">
+                <div class="product-txt">
+                    <h3>Fisher</h3>
+                    <p class="precio">$1,271</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/imagen10.png" alt="">
+                <div class="product-txt">
+                    <h3>3x3 fibra carbono</h3>
+                    <p class="precio">$4,06</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/imagen11.png" alt="">
+                <div class="product-txt">
+                    <h3>mirror 3x3 </h3>
+                    <p class="precio">$1,049</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/imagen12.png" alt="">
+                <div class="product-txt">
+                    <h3>Pyraminx</h3>
+                    <p class="precio">$52,44</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="7">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/imagen13.png" alt="">
+                <div class="product-txt">
+                    <h3>Mastermorphix 3x3</h3>
+                    <p class="precio">$5,65 </p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="8">agregar</a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <section class="service">
+
+        <div class="service-1">
+            <img class="store" src="img/727710.jpg" alt="">
+        </div>
+        
+
+    </section>
+
+    <section class="contact container">
+
+        <form>
+            <input type="email" placeholder="Correo">
+            <input type="submit" class="btn-3">
+        </form>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-content container" id="footer">
+
+            <div class="link">
+                <h3>Siguenos</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i> instagram</a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i> twitter</a></li>
+                    <li><a href="#"><i class="fa-brands fa-tiktok"></i> tiktok</a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i> facebook</a></li>
+                </ul>
+
+            </div>
+
+            <div class="link">
+                <h3>Entrega</h3>
+                <ul>
+                    <li><a href="#">1 a 3 dias habiles</a></li>
+                    <li><a href="#">No trabajamos festivos</a></li>
+                    <li><a href="#">8:00am - 10:00pm</a></li>
+                  
+                </ul>
+
+            </div>
+
+            <div class="link">
+                <h3>pago</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-wallet"></i> efectivo</a></li>
+                    <li><a href="#"><i class="fa-solid fa-building-columns"></i> Tranferencias</a></li>
+                    
+                </ul>
+
+            </div>
+
+            
+            <div class="link">
+                <h3>@contactos</h3>
+                <ul>
+                    <li><a href="#">cuby@gmail.com</a></li>
+                    <li><a href="#">+57 3174162095</a></li>
+                    
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
